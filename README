@@ -1,0 +1,22 @@
+# Supplier Portal
+
+## Overview
+The Supplier Portal is a Django-based web application that allows users to manage suppliers, including creating, updating, deleting, and retrieving supplier information.
+
+## Features
+- List all suppliers
+- Create a new supplier
+- Update existing supplier information
+- Delete a supplier
+- Others..
+
+## Technologies Used
+- Django
+- Django Rest Framework
+- SQLite (default database)
+
+## Installation
+
+1. Clone the repository:
+   git clone https://github.com/facusada/supplier_portal
+   cd supplier_portal
