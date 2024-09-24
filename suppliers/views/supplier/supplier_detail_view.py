@@ -2,8 +2,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from ..serializers.supplier_serializer import SupplierSerializer
-from ..services.supplier_service import delete_supplier, get_supplier_by_id, update_supplier
+from ...serializers.supplier_serializer import SupplierSerializer
+from ...services.supplier_service import delete_supplier, get_supplier_by_id, update_supplier
 
 
 class SupplierDetailView(APIView):

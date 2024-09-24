@@ -2,8 +2,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from ..serializers.supplier_serializer import SupplierSerializer
-from ..services.supplier_service import get_all_suppliers, create_supplier
+from ...serializers.supplier_serializer import SupplierSerializer
+from ...services.supplier_service import get_all_suppliers, create_supplier
 
 class SupplierListView(APIView):
     def get(self, request):
